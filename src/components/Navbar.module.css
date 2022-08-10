@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  padding-top: 0;
+
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+
+.listContainer {
+  padding: 2.6rem;
+  width: 50%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-transform: uppercase;
+  color: #979cbb;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.list li {
+  padding: 2.3rem;
+  padding-bottom: 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s;
+  position: relative;
+}
+
+.list li::after {
+  content: "";
+  display: table;
+  position: absolute;
+  left: 1.8rem;
+  bottom: 0;
+  height: 2px;
+  width: 70%;
+  border-bottom: 2px solid #616697;
+}
+.list li:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
