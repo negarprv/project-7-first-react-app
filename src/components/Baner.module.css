@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+.banner {
+  height: calc(100vh - 12.9rem);
+  opacity: 0.85;
+  filter: blur(0.2px);
+
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.banner:hover {
+  opacity: 1;
+}
+
+.textContainer {
+  font-size: 2rem;
+  background-color: #d6ac726c;
+  height: 100%;
+  padding: 2rem 21rem;
+  color: #3e4161;
+  margin: auto 0;
+  text-align: center;
+}
+
+.textContainer h1 {
+  font-weight: 100;
+  transition: all 2s;
+}
+
+.textContainer h1:hover {
+  transform: rotateX(-360deg);
+  cursor: pointer;
+}
+
+.textContainer p {
+  /* background-color: #3e4161; */
+  border-right: 1.5px solid #3e4161;
+  border-left: 1.5px solid #3e4161;
+  /* color: rgb(220, 217, 217); */
+  height: 100%;
+  border-radius: 3px;
+}
