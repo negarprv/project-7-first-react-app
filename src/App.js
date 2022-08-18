@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Baner from "./components/Baner";
 import Cards from "./components/Cards";
+import Search from "./components/Search";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Baner />
       <Cards />
+      <Search />
     </div>
   );
 };

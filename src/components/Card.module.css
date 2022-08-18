@@ -1,7 +1,7 @@
 .container {
-  max-height: min-content;
+  max-height: max-content;
   max-width: max-content;
-  padding: 3.5rem;
+  padding: 9.3rem 3.5rem;
   margin-top: 1rem;
 
   border-bottom: 1px solid #eee;
