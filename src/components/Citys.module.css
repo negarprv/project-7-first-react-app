@@ -1,0 +1,16 @@
+.container {
+  background-color: #eee;
+  padding-bottom: 8rem;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 5rem;
+  font-size: 3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #d6ac72;
+  text-shadow: 2px 2px 4px #82828261;
+}
