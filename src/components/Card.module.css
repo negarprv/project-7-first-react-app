@@ -1,0 +1,49 @@
+.container {
+  max-height: min-content;
+  max-width: max-content;
+  padding: 3.5rem;
+  margin-top: 1rem;
+
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+.card {
+  /* background-color: rgba(238, 238, 238, 0.775); */
+  /* background-color: rgba(237, 237, 237, 0.625); */
+  background-color: #b9a8c92a;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s;
+
+  border-radius: 0.5rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  color: #3e4161;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+  transform: translateY(-1rem);
+}
+
+.img {
+  width: 100%;
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 2.5rem;
+  opacity: 0.9;
+}
+
+.img:hover {
+  opacity: 1;
+}
