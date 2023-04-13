@@ -23,17 +23,22 @@
   justify-content: space-between;
   list-style: none;
   text-transform: uppercase;
-  color: #979cbb;
+
   font-size: 1.3rem;
   font-weight: bold;
 }
 
 .list li {
   padding: 2.3rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 10px;
   cursor: pointer;
   transition: all 0.4s;
   position: relative;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #979cbb;
 }
 
 .list li::after {
@@ -60,6 +65,7 @@
 
   .list li {
     padding: 1.5rem 0;
+    padding-bottom: 7px;
     letter-spacing: 0.5px;
   }
 

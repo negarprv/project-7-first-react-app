@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  font-size: 17px;
+  border-bottom: 1px solid #eee;
+  padding: 5px;
+  width: 500px;
+  color: gray;
+  justify-content: space-evenly;
+  transition: all 0.4s;
+}
+
+.container:hover {
+  background-color: #dcdcdc59;
+  border-radius: 10px;
+}
+
+.container p {
+  width: 50%;
+}
